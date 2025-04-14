@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: "Ubuntu", serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to right #01022d ,#000);
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    background-image: linear-gradient(to right, #01022de5 30%, #00000088),url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbERjZ2VMVzg5WXY2bkF0Yy1rY0lfUVByRG5qZ3xBQ3Jtc0ttRmN6Tk1tNWl5LWQwSVhBRk0xOElSWUhYTVZ3TUZiWUNnMmdqdmpLTmJJMWpGX19OdTFaYTU3SW1TakUybmgxc242NmV6WVh5aDRIUllia01acWktRnhEOTRRSEhxNEw4c216SW1CVzh2dlc4MlozYw&q=https%3A%2F%2Fca-times.brightspotcdn.com%2Fdims4%2Fdefault%2Fc1a61d9%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F3840x2160%2B0%2B0%2Fresize%2F1200x675%21%2Fformat%2Fwebp%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcalifornia-times-brightspot.s3.amazonaws.com%252F03%252F0d%252F44d557194a8db3da6f4536cc2f30%252Favtr-226.jpg&v=8uf6lp-TkL8);
+    background-size: cover;
+    background-position:center ;
+width: 100%;
+height: 960px;
+
+
+
+
+}
+.container:hover{
+    background-image: linear-gradient(to right, #01022de5, transparent),url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbERjZ2VMVzg5WXY2bkF0Yy1rY0lfUVByRG5qZ3xBQ3Jtc0ttRmN6Tk1tNWl5LWQwSVhBRk0xOElSWUhYTVZ3TUZiWUNnMmdqdmpLTmJJMWpGX19OdTFaYTU3SW1TakUybmgxc242NmV6WVh5aDRIUllia01acWktRnhEOTRRSEhxNEw4c216SW1CVzh2dlc4MlozYw&q=https%3A%2F%2Fca-times.brightspotcdn.com%2Fdims4%2Fdefault%2Fc1a61d9%2F2147483647%2Fstrip%2Ftrue%2Fcrop%2F3840x2160%2B0%2B0%2Fresize%2F1200x675%21%2Fformat%2Fwebp%2Fquality%2F80%2F%3Furl%3Dhttps%253A%252F%252Fcalifornia-times-brightspot.s3.amazonaws.com%252F03%252F0d%252F44d557194a8db3da6f4536cc2f30%252Favtr-226.jpg&v=8uf6lp-TkL8);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul{
+    width: 60%;
+    list-style: none;
+display: flex;
+justify-content: space-evenly;
+
+}
+ul a{
+    border-bottom: 2px solid transparent;
+
+}
+
+ul a:hover{
+    border-bottom:  white;
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top:50px ;
+    padding: 30px;
+}
+
+.content h2{
+    font-size: 100px;
+text-transform: uppercase;
+}
+
+.content p{
+letter-spacing: 3px;
+width: 350px;
+padding: 20px 0;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content button:hover{
+background-color: transparent;
+border-color: white;
+color: white;
+}
